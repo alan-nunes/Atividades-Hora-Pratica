@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Digite o título do livro para a busca: ");
         var tituloLivro = leitura.nextLine();
 
-        String chave = "AIzaSyArC8WUi0jVQPAUr7fesHiMpUFtJHzzVqs";
+        String chave = System.getProperty("API_GOOGLE");
         String endereco = "https://www.googleapis.com/books/v1/volumes?q=" + tituloLivro + "&key=" + chave;
 
         HttpClient client = HttpClient.newHttpClient();

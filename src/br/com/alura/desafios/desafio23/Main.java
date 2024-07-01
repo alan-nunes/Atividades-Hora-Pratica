@@ -39,3 +39,12 @@ Crie uma classe Pessoa usando o conceito de Record em Java, com atributos como n
 Em seguida, implemente um programa que utiliza a biblioteca Gson para converter um JSON representando
 uma pessoa em um objeto do tipo Pessoa.
  */
+
+/* será necessario add a dependencia abaixo no arquivo maven
+
+  <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.9</version>
+    </dependency>
+ */
